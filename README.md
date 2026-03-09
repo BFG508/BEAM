@@ -17,15 +17,15 @@ This project is built using **Python 3.13.5** within a **Jupyter Notebook** envi
 ## ⚙️ Installation & Usage
 To run this notebook locally, you will need Python installed along with Jupyter and the required scientific libraries.
 
-1. **Clone the repository:**
+1. **Clone the repository**:
    ```bash
    git clone https://github.com/BFG508/BEAM
-2. **Install the required dependencies:**
+2. **Install the required dependencies**:
 It is recommended to use a virtual environment. Install the packages via pip:
     ```bash
     pip install numpy matplotlib jupyter
-3. **Launch the simulation:**
+3. **Launch the simulation**:
 Navigate to the repository folder and start the Jupyter Notebook server:
     ```bash
     jupyter notebook BEAM.ipynb
-4. **Run the cells:** Execute the notebook sequentially to compute the S11 parameters, build the array arrays, and generate the final 3D visualizations and beam steering patterns.
+4. **Run the cells**: Execute the notebook sequentially to compute the S11 parameters, build the array arrays, and generate the final 3D visualizations and beam steering patterns.
