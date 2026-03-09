@@ -10,7 +10,7 @@ A comprehensive Python-based simulation tool for analyzing and visualizing dipol
 * **Rich 2D & 3D Visualizations:** Generates high-quality spatial representations, including 3D geometric models of the antennas, 3D surface radiation patterns, and 2D polar plots for both Azimuth (H-plane) and Elevation (E-plane) cuts.
 
 ## 🛠️ Technology Stack
-This project is built using **Python 3** within a **Jupyter Notebook** environment. It relies on the following core libraries:
+This project is built using **Python 3.13.5** within a **Jupyter Notebook** environment. It relies on the following core libraries:
 * **NumPy:** For handling complex array operations, trigonometric calculations, grid meshing, and signal processing math.
 * **Matplotlib:** Used extensively for all data visualization. Specifically leverages `pyplot`, `cm` (colormaps like 'plasma'), and `mpl_toolkits.mplot3d` for the 3D surface and line plots.
 
@@ -23,7 +23,7 @@ To run this notebook locally, you will need Python installed along with Jupyter 
 2. **Install the required dependencies:**
 It is recommended to use a virtual environment. Install the packages via pip:
     ```bash
-        pip install numpy matplotlib jupyter
+    pip install numpy matplotlib jupyter
 3. **Launch the simulation:**
 Navigate to the repository folder and start the Jupyter Notebook server:
     ```bash
